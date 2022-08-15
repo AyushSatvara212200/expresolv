@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+  /* NAVIGATION BAR */
+  #inno-supp {
+    font-size: 20px;
+  }
+  #nav-elements {
+    display: none;
+  }
+  #menu {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+  }
+  #navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nav-end {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #brand-logo-txt {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #inno-supp {
+    font-size: 15px;
+  }
+  #nav-elements {
+    display: none;
+  }
+  #menu-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+  }
+}
