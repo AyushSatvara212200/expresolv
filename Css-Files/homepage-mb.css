@@ -499,4 +499,55 @@
   #inno-supp {
     font-size: 15px;
   }
+  #col-1,
+  #col-2,
+  #col-3 {
+    width: 355px;
+  }
+  #card-1,
+  #card-2,
+  #card-3 {
+    width: 355px;
+  }
+  #card-2 img,
+  #card-3 img {
+    width: 355px;
+  }
+  .carousel-1 {
+    width: 375px;
+  }
+  .cust-carousel {
+    width: 360px;
+  }
+  .major-customer {
+    width: 375px;
+  }
+  #major-customer-text {
+    width: 375px;
+  }
+  #major-customer-h5 {
+    width: 375px;
+  }
+  #company-name-1,
+  #company-name-2,
+  #company-name-3,
+  #company-name-4,
+  #company-name-5,
+  #company-name-6,
+  #company-name-7,
+  #company-name-8 {
+    width: 180px;
+  }
+  #company-name-4 img {
+    width: 180px;
+  }
+  #company-name-6 img {
+    width: 180px;
+  }
+  #company-name-1 img {
+    width: 180px;
+  }
+  #company-name-3 img {
+    width: 170px;
+  }
 }
