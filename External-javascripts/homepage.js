@@ -37,3 +37,9 @@ $(document).ready(function () {
         pageDots: false,
     });
 });
+
+$(document).ready(function () {
+    $("#menu-icon").click(function () {
+        $('#menu-toggle').slideToggle("slow").css("display", "flex");
+    })
+});

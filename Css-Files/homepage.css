@@ -117,10 +117,12 @@ body {
   width: 30px;
   height: 30px;
 }
-#menu-icon {
+#menu {
   display: none;
 }
-
+#menu-toggle {
+  display: none;
+}
 /* CAROUSEL */
 #carousel {
   width: 100%;
@@ -196,7 +198,10 @@ body {
   font-family: acme;
   box-shadow: inset 0px 0px 10px 3px #05215a;
 }
-
+#overlay-button-img {
+  width: 25px;
+  height: 25px;
+}
 /* WAVY BACKGROUND */
 #wrap {
   width: 100%;
