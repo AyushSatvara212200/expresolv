@@ -767,6 +767,12 @@ body {
   align-items: center;
   gap: 30px;
 }
+#footer-text4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: montserrat;
+}
 #footer-title4 {
   font-family: acme;
   font-weight: 800;

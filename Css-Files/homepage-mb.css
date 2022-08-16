@@ -568,4 +568,10 @@
   #rcnt-evnt-txt {
     text-align: center;
   }
+  #address1 p {
+    font-size: 14px;
+  }
+  #contact-info {
+    font-size: 14px;
+  }
 }
