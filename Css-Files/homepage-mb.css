@@ -300,7 +300,7 @@
   }
   #card-2 {
     width: 400px;
-    height: 500px;
+    height: 520px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -381,6 +381,11 @@
   .carousel-1 {
     width: 400px;
     height: 300px;
+  }
+  #carousel-cell-1-para,
+  #carousel-cell-2-para,
+  #carousel-cell-3-para {
+    width: 365px;
   }
   /* MAJOR CUSTOMERS */
   .major-customer {
@@ -514,19 +519,29 @@
     width: 355px;
   }
   .carousel-1 {
-    width: 375px;
+    width: 360px;
+  }
+  #carousel-cell-1,
+  #carousel-cell-2,
+  #carousel-cell-3 {
+    width: 360px;
+  }
+  #carousel-cell-1-para,
+  #carousel-cell-2-para,
+  #carousel-cell-3-para {
+    width: 360px;
   }
   .cust-carousel {
     width: 360px;
   }
   .major-customer {
-    width: 375px;
+    width: 360px;
   }
   #major-customer-text {
-    width: 375px;
+    width: 360px;
   }
   #major-customer-h5 {
-    width: 375px;
+    width: 360px;
   }
   #company-name-1,
   #company-name-2,
@@ -549,5 +564,8 @@
   }
   #company-name-3 img {
     width: 170px;
+  }
+  #rcnt-evnt-txt {
+    text-align: center;
   }
 }
