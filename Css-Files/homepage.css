@@ -796,6 +796,9 @@ body {
 #contact-info p {
   font-family: montserrat;
 }
+#footer-mb {
+  display: none;
+}
 #copyright {
   width: 100%;
   height: 50px;
