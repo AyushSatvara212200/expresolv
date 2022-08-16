@@ -183,6 +183,7 @@
   }
   /* COMPANY TEXT */
   #company-text {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -199,14 +200,47 @@
   #img-comp {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #factory-img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
+    margin: 0;
   }
   /* WHO WE ARE */
   #who-we-r {
-    display: none;
+    width: 100%;
+    height: 900px;
+    background-image: none;
+  }
+  #who-we-r-img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    margin-top: 80px;
+    background-color: #001b4f;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #who-we-r-header {
+    width: 100%;
+    font-size: 50px;
+    font-family: acme;
+    color: white;
+    text-align: center;
+  }
+  #who-we-r-footer {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
   /* RECENT EVENTS */
   #rcnt-evnt {
